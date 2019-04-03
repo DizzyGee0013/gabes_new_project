@@ -1,22 +1,21 @@
 
 <style>   
-    header {
-        color: orchid
+  body {
+    color: lightskyblue
+  }
+  header {
+  color: orchid
+  }
+  h1 {
+  color: royalblue
     }
-    h1 {
-      color: royalblue
-      }
-    
-    h2 {
-      color: lightcoral
-    }
-    h3 {
-      color: orange
-      }
-    footer {
-        color: greenyellow
-      }
-    body {
-      
-    }
+  h2 {
+  color: lightcoral
+  } 
+  h3 {
+    color: orange
+  }
+  footer {
+  color: greenyellow
+  }
 </style>
