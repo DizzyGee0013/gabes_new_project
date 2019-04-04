@@ -7,6 +7,7 @@
       alert("Welcome to my page.");
       alert("Answer a series of questions to be granted admittance. Good Luck!");
 
+      function questionOne() {
       // Gabriel - Asks to play a numbers guessing game between 1 and 20
       var guessNumbers = prompt("Let's play a guessing game; Think of a number between 1 and 20?").toLowerCase();
       var yourCorrect = parseInt(guessNumbers);
@@ -14,33 +15,40 @@
         alert('You are Correct! Great Job, Are you ready for the next question?');
       } else if (yourCorrect < 13); {
         alert('That is Not Correct! Sorry you will need to try again.');
-      } else (yourCorrect > 13); {
+      } if (yourCorrect > 13); {
         alert('I guess it is back to the drawing board for you!');
       }
+      }
+      // Raven - Question 2 begins. Start new function
       // Gabriel - Below fused together my initial code with the code segment from class
+      function questionTwo() {
       var myFavoriteColor = prompt("This next question is a little tricky, what is my favorite color?").toLowerCase();
       var gotItRight = parseInt(myFavoriteColor);
 
-      if(myFavoriteColor === "red").toLowerCase(); { // Gabriel - Question? Can you add concatenation to the descriptor or "red" like "red + blue + green"
+      if(myFavoriteColor === "red") { // Gabriel - Question? Can you add concatenation to the descriptor or "red" like "red + blue + green"
         alert('Yay you got another one Correct! Red is my Favorite Color. How did you know?');
       } else if(gotItRight > "red"); {
         alert('Sorry but your going to have to try again');
-      } else (gotItRight < "red").toLowerCase(); {
+      } if (gotItRight !== "red") {
         alert("Please again? Hint... Everything is in lower case!");
       }
-
+      }
+      // Raven - Question 3 begins. Added new function.
       // Gabriel - Asked another question, but this one asked how many kids (another guessing game)
+      function questionThree() {
       var numberOfKids = prompt("This next question is a little tricky, what is my favorite color?").toLowerCase();
       var reallyAgain = parseInt(numberOfKids);
   
-      if(numberOfKids === "3").toLowerCase(); {
+      if(numberOfKids === "3") {
         alert('Good guess, Are you sure your not google-ing me lol. How did you know?');
       } else if(gotItRight === "3"); {
         alert('Sorry but you got it wrong this time!');
       } else {
         alert("Nope, Keep trying!!!");
-      
+      }
+      // Raven Question 4 begins. New function here.
       // Gabriel - Here is another guessing game with my age as the question that answers a number
+      function questionFour() {
       var oldFart = prompt("Ok, I see you. Ok! Last One! How old am I?");
       var noWay = parseInt(oldFart);
 
@@ -50,7 +58,13 @@
           alert('...You Shall NOT PASS!!! Try again!'); {
         } else {
           alert('That was your last shot too. Dang! Better luck next time!!!!');
+        }
         } 
+
+        questionOne();
+        questionTwo();
+        questionThree();
+        questionFour();
 
         // Gabriel - Below is a copied (by hand) version of what Vinicio did in class 
 // Gabirel - I am adding into my code and will be sure to cite my source :)
