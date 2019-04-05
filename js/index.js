@@ -59,20 +59,20 @@
 // Gabriel - I have done the 15 minute walk away for a breather and come back nada. What i am missing... I will need to utilize help 
 // Gabriel - It is almost 1:56 am 4/4/19 and I am at my wits end. I have tring all night to no avail. I feel defeated....
 // Gabriel - I will try again tomorrow.
-// var guessesRemaining = 4; 
-// var userGuessedCorrectly = false;
+var guessesRemaining = 4; 
+var userGuessedCorrectly = false;
 
-// while(guessesRemaining > 0 && userGuessedCorrectly === false) {
-//     alert('');
-//     guessesRemaining--; 
-//     alert('You have ' + guessesRemaining + ' attepmts');
-// }
-// if(userGuessedCorrectly) {
-//     alert('Congratulations');
-// }
-// else {
-//     alert('BOO!');
-// }
+while(guessesRemaining > 0 && userGuessedCorrectly === false) {
+    alert('');
+    guessesRemaining--; 
+    alert('You have ' + guessesRemaining + ' attepmts');
+}
+if(userGuessedCorrectly) {
+    alert('Congratulations');
+}
+else {
+    alert('BOO!');
+}
 
 // Gabriel - The code above covers the last question to the lab
 
