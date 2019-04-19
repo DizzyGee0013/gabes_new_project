@@ -1,5 +1,4 @@
 
-<style>   
   body {
     background-color: lightskyblue
   }
@@ -18,4 +17,7 @@
   footer {
   color: greenyellow
   }
-</style>
+
+  img {
+    width: 200px;
+  }
